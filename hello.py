@@ -1,8 +1,7 @@
 
-user_role = "admin"
-credits = 3
+count = 1 
 
-if user_role == "admin" or credits > 5:
-   print("Access Granted")
-else:
-   print("Access Denied")   
+while count <= 3:
+    print(f"Attempt Number: {count}")
+    count = count + 1
+
